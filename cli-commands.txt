@@ -1,0 +1,32 @@
+to create project:
+ng new <PojectName>
+
+for routing project
+
+ng new <ProjectName> --routing
+
+to run
+
+ng serve
+
+to create component :
+AngularApp1>ng g c <component name>
+
+the above command create component inside app folder
+
+for specified location <specific-folder/component-name>
+
+to create inline style and inline template with cli then create with the following options
+-is  //inline style
+-it //inline template
+
+to create module
+AngularApp1>ng g m <module name>
+--module=app tells the CLI to register it in the imports/declarations array of the AppModule
+-d , to display generated files
+--flat=true , this will generate directly module file inside app(root folder)//or it does not have dedicated folder
+--spec=true , generate spec file
+
+to create service
+
+ng g s <service name>
