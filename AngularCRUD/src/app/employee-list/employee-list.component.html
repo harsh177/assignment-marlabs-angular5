@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Age</td>
+      <td>Department</td>
+      <td>Gender</td>
+      <td>Action</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{employee.name}}</td>
+      <td>{{employee.age}}</td>
+      <td>{{employee.department}}</td>
+      <td>{{employee.gender}}</td>
+      <td><a>View</a>&nbsp;<a (click)="edit(employee)">Edit</a>&nbsp;<a (click)="delete(employee.id)">Delete</a></td>
+    </tr>
+  </tbody>
+</table>

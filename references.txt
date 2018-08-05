@@ -1,0 +1,2 @@
+https://codecraft.tv/courses/angular/custom-directives/creating-a-custom-directive/
+https://www.youtube.com/watch?v=DNoPO-WrKyM
